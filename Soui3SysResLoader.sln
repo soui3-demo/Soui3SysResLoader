@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Soui3SysResLoader", "Soui3SysResLoader\Soui3SysResLoader.vcproj", "{0D83A90A-9C77-466E-978D-05DD94190D13}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "soui3", "..\soui3.git\SOUI\soui3.vcproj", "{A278536F-80DF-3C47-A1FD-14BAACB6B8C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D83A90A-9C77-466E-978D-05DD94190D13}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0D83A90A-9C77-466E-978D-05DD94190D13}.Debug|Win32.Build.0 = Debug|Win32
+		{0D83A90A-9C77-466E-978D-05DD94190D13}.Release|Win32.ActiveCfg = Release|Win32
+		{0D83A90A-9C77-466E-978D-05DD94190D13}.Release|Win32.Build.0 = Release|Win32
+		{A278536F-80DF-3C47-A1FD-14BAACB6B8C6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A278536F-80DF-3C47-A1FD-14BAACB6B8C6}.Debug|Win32.Build.0 = Debug|Win32
+		{A278536F-80DF-3C47-A1FD-14BAACB6B8C6}.Release|Win32.ActiveCfg = Release|Win32
+		{A278536F-80DF-3C47-A1FD-14BAACB6B8C6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
