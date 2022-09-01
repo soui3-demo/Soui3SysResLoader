@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <skin>
- 	</skin>
+  <gradation name="grad_test" colorFrom="#ff0000" colorTo="#00ffff"/>
+</skin>

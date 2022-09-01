@@ -2,7 +2,7 @@
 appWnd="1"
 translucent="1" 
 >
-  <root skin="_skin.sys.wnd.bkgnd" cache="1"  width="600" height="400" >
+  <root skin="grad_test" cache="1"  width="600" height="400" >
     <caption pos="0,0,-0,30" show="1" font="adding:0">
       <icon pos="10,8" src="ICON_LOGO:16"/>
       <text pos="29,9">@string/title</text>
@@ -12,27 +12,13 @@ translucent="1"
       <imgbtn name="btn_min" skin="_skin.sys.btn.minimize" pos="-121,0" animate="1" />
     </caption>
     <window pos="5,[2,-5,-5" layout="vbox" >
-      <button size="100,30" name="btn_reload" text="reload"/>
-      <tabctrl size="-2,0" weight="1" tabHeight="30">
-        <page title="page1" layout="vbox" interval="10">
-          <check text="checkbox"/>
-          <window layout="hbox" interval="10">
-            <radio text="radiobox1" checked="1"/>
-            <radio text="radiobox2"/>
-            <radio text="radiobox3"/>
-            <radio text="radiobox4"/>
-          </window>
-
-          <progress size="-2,50" min="0" max="100" value="50"/>
-
-          <scrollbar size="-2,30" min="0" max="100" value="50"/>
-          <richedit size="-2,0" weight="1" multiLines="1" vscrollbar="1" hscrollbar="1" autoVscroll="0" autoHscroll="0" margin="2,2,2,2"/>
-
-        </page>
-        <page title="page2">
-          
-        </page>
-      </tabctrl>
+      <window layout="hbox" size="-2,-1" interval="10">
+        <button size="100,30" name="btn_reload_sys" text="reload sys"/>
+        <button size="100,30" name="btn_reload_demo" text="reload demo"/>
+      </window>
+      <window size="-2,0" weight="1" name="wnd_demo" layout="vbox">
+        <include src="layout:xml_demo"/>
+      </window>
     </window>
   </root>
 </SOUI>

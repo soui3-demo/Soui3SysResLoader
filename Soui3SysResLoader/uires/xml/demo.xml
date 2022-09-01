@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabctrl size="-2,0" weight="1" tabHeight="30">
+  <page title="page1" layout="vbox" interval="10">
+    <check text="checkbox"/>
+    <window layout="hbox" interval="10">
+      <radio text="radiobox1" checked="1"/>
+      <radio text="radiobox2"/>
+      <radio text="radiobox3"/>
+      <radio text="radiobox4"/>
+    </window>
+
+    <progress size="-2,50" min="0" max="100" value="50"/>
+
+    <scrollbar size="-2,30" min="0" max="100" value="50"/>
+    <richedit size="-2,0" weight="1" multiLines="1" vscrollbar="1" hscrollbar="1" autoVscroll="0" autoHscroll="0" margin="2,2,2,2"/>
+
+  </page>
+  <page title="page2">
+  </page>
+</tabctrl>

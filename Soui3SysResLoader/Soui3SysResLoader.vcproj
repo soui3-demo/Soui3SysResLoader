@@ -115,14 +115,17 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
+				Optimization="0"
 				WholeProgramOptimization="true"
 				AdditionalIncludeDirectories="&quot;$(SOUI3PATH)\config&quot;;&quot;$(SOUI3PATH)\components&quot;;&quot;$(SOUI3PATH)\SOUI&quot;;&quot;$(SOUI3PATH)\SOUI\include&quot;;&quot;$(SOUI3PATH)\utilities\include&quot;"
 				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG"
 				RuntimeLibrary="0"
 				TreatWChar_tAsBuiltInType="true"
 				UsePrecompiledHeader="2"
+				BrowseInformation="1"
 				WarningLevel="3"
 				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -238,6 +241,10 @@
 			>
 			<File
 				RelativePath=".\uires\values\color.xml"
+				>
+			</File>
+			<File
+				RelativePath=".\uires\xml\demo.xml"
 				>
 			</File>
 			<File
